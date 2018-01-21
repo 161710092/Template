@@ -1,0 +1,42 @@
+@extends('templates.master')
+@section('konten')
+	<table class="table">
+				<thead>
+					<tr>
+						<th>
+							#
+						</th>
+						<th>
+							Kode_Barang
+						</th>
+						<th>
+							Nama_Barang
+						</th>
+						<th>
+							Harga
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					@php
+						$no=1;
+					@endphp
+					@foreach($siswa as $tab)
+					<tr>
+						<td>
+							{{$no++}}
+						</td>
+						<td>
+							{{$tab->Nama_Siswa}}
+						</td>
+						<td>
+							{{$tab->Kelas}}
+						</td>
+						<td>
+							{{$tab->Umur}}
+						</td>
+					</tr>
+					@endforeach
+				</tbody>
+			</table>
+@endsection

@@ -1,0 +1,36 @@
+<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="/rumah">Home</a>
+				</li>
+				<li>
+					<a href="/paragraph">Paragraph</a>
+				</li>
+				<li>
+					<a href="/foto">Gallery Foto</a>
+				</li>
+				<li>
+					<a href="/table">Data Table</a>
+				</li>
+				<li>
+					<a href="/form">Form</a>
+				</li>
+				<li class="dropdown pull-right">
+					 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown<strong class="caret"></strong></a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#">Action</a>
+						</li>
+						<li>
+							<a href="#">Another action</a>
+						</li>
+						<li>
+							<a href="#">Something else here</a>
+						</li>
+						<li class="divider">
+						</li>
+						<li>
+							<a href="#">Separated link</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
